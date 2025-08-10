@@ -17,6 +17,8 @@ dependencies = [
     "mysqlclient (>=2.2.7,<3.0.0)",
     "mysql-connector-python (>=9.4.0,<10.0.0)",
     "requests (>=2.32.4,<3.0.0)",
+    "pillow (>=11.3.0,<12.0.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)",
 ]
 
 
