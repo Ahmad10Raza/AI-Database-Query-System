@@ -428,7 +428,8 @@ Do not include any explanations or extra text.
     
     
     def export_data(self, format_type):
-        sql = self.query_entry.get().strip()
+        # sql = self.query_entry.get().strip()
+        sql = self.query_entry.get("1.0", "end-1c").strip()
         if not sql:
             messagebox.showwarning("Warning", "Run a query before exporting.")
             return
